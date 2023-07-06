@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estiloformulario.css">
+</head>
+<body>
+    
+    <nav class="principal">
+    <a href="index.html" title ="index"> Página principal </a>
+    </nav>
+
+    <div class="div1">Los servicios básicos son de vital importancia para el crecimiento y desarrollo de una comunidad; por ello, las autoridades responsables y la población debemos prestar gran atención a la cantidad de servicios que se brindan, pero más que nada a su calidad, mientras la calidad de los servicios del sea mejor, la capacidad y oportunidad de calidad de vida de los habitantes mejorará.</div>
+    <div class="div2">Dentro de los problemas que existen en la sociedad podemos citar la falta de suministro de agua potable a domicilio, la misma que es un bien esencial y básico para una vida digna, a la que todos deberíamos tener derecho; el servicio de energía eléctrica de vital importancia para el desempeño de las actividades personales y laborales; la telefonía, encargado del servicio telefónico e internet para una comunicación entre las poblaciones y sus habitantes. </div>
+
+
+    <div class="agua">
+    <img src="agua.png" width="350px" height="350px">
+    </div>
+
+   <div class="bombilla">
+        <img src="bombilla.png" width="400px" height="400px">
+        </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Participación de la Comunidad</h>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="">¿Últimamente ha tenido problemas con los servicios básicos (agua, luz eléctrica, etc.)?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="servicios" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">¿Cuántas veces a la semana tiene problemas con el servicio de electricidad?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="basicos" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">¿Cuántas veces a la semana tiene problemas con el servicio de agua potable?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="de"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">¿Cree que las autoridades se toman el tiempo necesario para resolver controversias de la comunidad?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="la"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">¿Está conforme con el trabajo de las autoridades municipales?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="comunidad"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">¿Qué acciones sugiere en cuanto a acciones para mejora de la comunidad?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="agua"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="">¿Participa en los servicios y faenas a beneficio de la comunidad?</label>
+                <input type="text" placeholder="Escribe algo aquí..." id="elec"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <button id="icono-menu" onmouseover="cambia('icono-menu','si')" onmouseout="cambia('icono-menu','')" >
+            <br><h4>ENVÍAR</h4></br>
+            </button>
+
+        </form>
+    </div>
+
+<script src="formulariojavascript.js"></script>
+    
+</body>
+</html>
